@@ -30,7 +30,7 @@
                             <div>JOEL GORDILLO PINTO</div>
                             <div>REGIMEN DE INCORPORACION FISCAL</div>
                             <div>RFC: GOPJ-670924-FW2 </div>
-                            <div>CLAVE : 07PBT01961 ACUERDO No. PCA-01/96 	</div>
+                            <div>CLAVE : 07PBT0196I ACUERDO No. PCA-01/96 	</div>
                         </div>
                         <div class="col-sm-4">
                             <div class="text-center"><img src="{{ asset('images/cecate.png') }}" alt="" width="150px"></div>
