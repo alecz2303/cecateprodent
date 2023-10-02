@@ -1,0 +1,13 @@
+@media print {
+    .d-print-none {
+        display: none;
+    }
+  }
+
+.fuente_peq {
+    font-size: 10px;
+}
+
+.espacio {
+    padding-top: 100px;
+}

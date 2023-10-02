@@ -4,16 +4,16 @@ namespace App\Actions;
 
 use TCG\Voyager\Actions\AbstractAction;
 
-class Mensualidad extends AbstractAction
+class RecDocs extends AbstractAction
 {
     public function getTitle()
     {
-        return 'Mens Pagadas';
+        return 'Rec Doctos';
     }
 
     public function getIcon()
     {
-        return 'voyager-dollar';
+        return 'voyager-documentation';
     }
 
     public function getPolicy()
@@ -24,13 +24,13 @@ class Mensualidad extends AbstractAction
     public function getAttributes()
     {
         return [
-            'class' => 'btn btn-sm btn-success',
+            'class' => 'btn btn-sm btn-info',
         ];
     }
 
     public function getDefaultRoute()
     {
-        return route('voyager.pagos', ['id' => $this->data->id]);
+        return route('voyager.recdocs', ['id' => $this->data->id]);
     }
 
     public function shouldActionDisplayOnDataType()
