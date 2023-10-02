@@ -42,6 +42,7 @@ Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 
     Route::get('pagos/{id}', 'App\Http\Controllers\PagosController@pagos')->name('voyager.pagos');
+    Route::get('recdocs/{id}', 'App\Http\Controllers\FormatosController@recdocs')->name('voyager.recdocs');
 
     Route::get('imprimirpago/{id}', 'App\Http\Controllers\PrintController@imprimirPago')->name('voyager.print.imprimirPago');
 
